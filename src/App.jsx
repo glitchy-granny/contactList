@@ -1,12 +1,9 @@
-import { useState } from "react";
-import ContactList from "./ContactList.jsx";
+import ContactList from "./ContactList";
 
-function App() {
+export default function App() {
   return (
     <>
       <ContactList />
     </>
   );
 }
-
-export default App;
